@@ -1,0 +1,50 @@
+.block-next {
+   background-color: var(--secondary-border-color);
+   padding-bottom: 65px;
+   &__header{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__title{
+      font-weight: 600;
+      line-height: 41px;
+      font-size: 34px;
+   }
+   &__link{
+      font-weight: 600;
+      line-height: 41px;
+      font-size: 16px;
+   }
+   &__link::before{
+      border-bottom: 1px solid currentColor;
+      position: relative;
+      bottom: 50px;
+   }
+   &__items{
+      display: flex;
+      gap: 27px;
+      margin-top: 45px;
+      }
+   &__item{
+
+   }
+   &__img{
+      width: 360px;
+      height: 249px;
+      border-radius: 10px;
+   }
+   &__prescription{
+      font-weight: 600;
+      line-height: 22px;
+      font-size: 18px;
+      position: relative;
+      top: 44px;
+   }
+   &__description{
+      font-weight: 400;
+      line-height: 17px;
+      font-size: 14px;
+      position: relative;
+      top: 44px;
+   }
+}

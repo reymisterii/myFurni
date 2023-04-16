@@ -1,0 +1,106 @@
+.desing{
+      height: 560px;
+      background-color: var(--secondary-border-color);
+   &__items{
+      display: flex;
+      height: 560px;
+      padding-top: 162px;
+   }
+   &__item{
+      width: 665px;
+   }
+   &__item:last-child{
+      position: relative;
+      left: 190px;
+      top: 50px;
+   }
+   &__item-picture--fierst{
+      width: 514px;
+      height: 422px;
+      position: relative;
+   }
+   &__item-picture--second{
+      width: 291px;
+      height: 349px;
+      position: relative;
+      left: 400px;
+      bottom: 100px;
+   }
+   &__item-picture--three{
+      width: 187px;
+      height: 187px;
+      position: relative;
+      bottom: 771px;
+      left: 510px;
+   }
+   &__item-picture--last{
+
+   }
+   &__item-picture--last-one{
+      position: relative;
+      bottom: 1015px;
+      right: 115px;
+      z-index: -1;
+   }
+   &__item-picture--last-second{
+      position: relative;
+      bottom: 829px;
+      left: 270px;
+   }
+   &__svg{
+
+   }
+   &__title{
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 41px;
+      font-style: normal;
+   }
+   &__description{
+      position: relative;
+      top: 30px;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--font-color);
+      font-style: normal;
+   }
+   &__elements{
+      position: relative;
+      top: 100px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 36px;
+   }
+   &__element{
+      flex-basis: 225px;
+      span{
+         position: relative;
+         left: 15px;
+         bottom: 3px;
+         font-family: 'Inter';
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 19px;
+         color: var(--font-color);
+         font-style: normal;
+      }
+   }
+   &__element--markers{
+      
+   }
+   &__element--mar{
+      position: absolute;
+      fill: #3B5D50;
+      color: #3B5D50;
+   }
+   &__btn{
+      padding: 11px 32px;
+      background-color: var(--gray-color);
+      border-radius: 30px;
+      color: var(--white-color);
+   }
+}

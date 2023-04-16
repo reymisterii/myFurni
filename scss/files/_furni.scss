@@ -1,0 +1,59 @@
+.furni {
+   &__title{
+      font-weight: 500;
+      line-height: 39px;
+      font-size: 32px;
+   }
+   &__items{
+      display: flex;
+      gap: 70px;
+   }
+   &__title{
+
+   }
+   &__item{
+      margin-top: 19px;
+      font-weight: 400;
+      line-height: 28px;
+      font-size: 14px;
+      color: var(--font-color);
+   }
+   &__item--description{
+      margin-top: 19px;
+      width: 369px;
+      height: 96px;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 14px;
+      color: var(--font-color);
+   }
+   &__elements{
+
+   }
+   &__element-link{
+      color: var(--font-color);
+   }
+   &__socials{
+      padding-top: 58px;
+      display: flex;
+      justify-content: flex-start;
+      gap: 11px;
+      padding-bottom: 34px;
+      border-bottom: 1px solid var(--secondary-border-color);
+   }
+   &__social{
+      width: 41px;
+      height: 41px;
+      background-color: var(--secondary-white-color);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   &__icon{
+      text-align: center;
+   }
+   &__svg{
+
+   }
+}

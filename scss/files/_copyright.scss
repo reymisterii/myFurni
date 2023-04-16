@@ -1,0 +1,27 @@
+.copyright {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   padding-top: 36px;
+   padding-bottom: 92px;
+   &__marks{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__marks{
+
+   }
+   &__link{
+      color: var(--font-color);
+   }
+   &__polices{
+      display: flex;
+      gap: 41px;
+   }
+   &__policy{
+
+   }
+   &__policy-link{
+      color: var(--font-color);
+   }
+}

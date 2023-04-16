@@ -1,0 +1,57 @@
+.subscribe-header {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 94px;
+   &__items{
+      
+   }
+   &__item{
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: nowrap;
+      gap:12px;
+   }
+   &__img{
+      width: 458px;
+      height: 396px;
+      position: relative;
+      bottom: 178px;
+   }
+   &__icon{
+      max-width: 458px;
+      max-height: 396px;
+   }
+   &__svg{
+      width: 22px;
+      height: 19px;
+   }
+   &__title{
+      font-weight: 600;
+      line-height: 22px;
+      font-size: 18px;
+      position: relative;
+      top: 3px;
+   }
+   &__form{
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 13px;
+   }
+   &__label{
+      
+   }
+   &__input{
+      width: 262px;
+      height: 46px;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+   }
+   &__button{
+      width: 50px;
+      height: 48px;
+      background-color: var(--green-color);
+      border-radius: 10px;
+      position: relative;
+
+   }
+}

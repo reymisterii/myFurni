@@ -1,0 +1,16 @@
+:root {
+   /* palette */
+   --green-color: #3B5D50;
+   --secondary-white-color: #D9D9D9;
+   --white-color: #FFFFFF;
+   --yellow-color: #F9BF29;
+   --border-color: #C4C4C4;
+   --secondary-border-color: #EFF2F1;
+   --gray-color: #2F2F2F;
+   --font-color: #6A6A6A;
+   --black-color: #000000;
+
+   --mobile: calc(100% - 2 * 15px);
+   --tablet: calc(100% / 2 - 2 * 15px);
+   --desktop: calc(100% / 4 - 2 * 15px);
+}

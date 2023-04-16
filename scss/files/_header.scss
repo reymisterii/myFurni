@@ -1,0 +1,54 @@
+.header {
+   background-color: var(--green-color);
+   height: 90px;
+   &__container{
+      display: flex;
+      justify-content: space-between;
+   }
+   &__nav{
+
+   }
+}
+
+.logo {
+   padding-top: 33px;
+}
+
+.menu {
+
+   &__items{
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+      gap: 44px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+   }
+
+   &__item{
+
+   }
+   &__link{
+      color: var(--white-color);
+      opacity: .5;
+   }
+   &__link:focus,
+   &__link:hover{
+      opacity: 1;
+   }
+   &__link--current{
+      color: var(--white-color);
+      ::after{
+         content: "";
+         height: 5px;
+         background-size: contain;
+         margin-top: 11px;
+         background-color: var(--yellow-color);
+         display: block;
+      }
+   }
+}

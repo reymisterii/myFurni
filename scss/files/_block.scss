@@ -1,0 +1,17 @@
+.block {
+   background-color: red;
+   &__title{
+      display: flex;
+      text-align: center;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 41px;
+      text-align: center;
+      color: #2F2F2F;
+      font-style: normal;
+   }
+   &__slide{
+
+   }
+}

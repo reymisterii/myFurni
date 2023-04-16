@@ -1,0 +1,100 @@
+.choose {
+   height: 850px;
+   background-color: var(--secondary-border-color);
+   &__item{
+
+   }
+   &__items{
+      padding-top: 200px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__title{
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 34px;
+      line-height: 41px;
+      font-style: normal;
+   }
+   &__description{
+      margin-top: 27px;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      font-style: normal;
+      color: var(--font-color);
+   }
+   &__elements{
+      margin-top: 88px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 36px;
+      
+   }
+   &__element{
+      flex-basis: 250px;
+   }
+   &__icon{
+   
+   }
+   &__icon-behind{
+      fill: var(--yellow-color);
+      color: yellow;
+      position: relative;
+      bottom: 685px;
+      right: 90px;
+      z-index: 10;
+   }
+   &__icon-cube{
+      position: relative;
+      fill: rgba(53, 115, 110, 0.1);
+      bottom: 690px;
+      right: 310px;
+   }
+   &__icon-circle{
+      position: relative;
+      top: 5px;
+      left: -30px;
+   }
+   &__svg{
+      
+   }
+   &__icon-Dotted--yellow{
+
+   }
+   &__svg-behind{
+
+   }
+   &__element-item{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+   }
+   &__element-description{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: var(--font-color);
+   }
+   &__img{
+      width: 515px;
+      height: 630px;
+      position: relative;
+      z-index: 100;
+   }
+   &__svg{
+
+   }
+   &__background-element--fierst{
+
+   }
+   &__background-element--next{
+
+   }
+}

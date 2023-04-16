@@ -1,0 +1,52 @@
+.material {
+   background-color: var(--secondary-border-color);
+   &__items{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 170px;
+   }
+   &__item-crafted {
+      max-width: 230px;
+   }
+   &__description{
+      margin-top: 40px;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      font-style: normal;
+      color: var(--font-color);
+   }
+   &__btn{
+      margin-top: 50px;
+      padding: 11px 35px;
+      background-color: var(--gray-color);
+      border-radius: 30px;
+      color: var(--white-color);
+   }
+   &__chear{
+      text-align: center;
+   }
+   &__chear-items{
+      display: flex;
+      gap: 79px;
+   }
+   &__chear-img{
+      height: 261px;
+      margin-bottom: 50px;
+   }
+   &__chear-description{
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      font-style: normal;
+   }
+   &__chear-price{
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      font-style: normal;
+   }
+}
